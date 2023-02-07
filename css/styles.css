@@ -1,4 +1,42 @@
+/* Global Styles
+--------------------------*/
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header {
+    background: #03045E;
+    color: #F4F2F3;
+}
+
+body {
+    background: #9EBC9F;
+    color: #2D2D2A;
+}
+
+a { 
+    color: #00e; 
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #551a8b;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #06e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 .banner-img {
     width: 1440px;
@@ -6,4 +44,50 @@
 
 img {
     width: 300px;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 200px;
+}
+
+/* Body Styles
+--------------------------*/
+
+.main {
+    height: 250px;
+    width: 600px;
+
+    display: flex;
+    float: left;
+}
+
+.aside {
+    background: lightblue;
+    float: left;
+    height: 250px;
+    width: 200px;
+}
+
+/* .most-recent {
+    width: 400px;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.most-popular {
+    width: 400px;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: right;
+} */
+
+/* Footer Styles
+--------------------------*/
+footer {
+    background: #d3b88c;
+    color: #2D2D2A;
 }
