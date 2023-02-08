@@ -23,13 +23,6 @@ a {
     text-decoration: none;
 }
 
-nav ul li{
-    display: inline-block;
-    padding-top: 100px;
-    background-color: white;
-    padding: 0 10px 0 10px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -40,22 +33,9 @@ h1, h2 {
 }
 
 .content-wrap {
-    width: 900px;
+    width: 1400px;
     margin: 0 auto;
     padding: 60px 0;
-}
-
-.login-register{
-    display: inline-block;
-    text-align: left;
-}
-
-.home {
-    display: inline-block;
-    text-align: right;
-    padding-left: 600px;
-    position: absolute;
-
 }
 
 .header {
@@ -100,9 +80,7 @@ a:hover {
     text-decoration: none;
 }
 
-img {
-    width: 300px;
-}
+
 
 
 /* Body Styles
