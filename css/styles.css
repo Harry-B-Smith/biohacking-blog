@@ -1,27 +1,89 @@
-/* Global Styles
+ /* Global Styles
 --------------------------*/
 
-html {
+/* html {
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-.header {
-    background: #03045E;
-    color: #F4F2F3;
-}
+} */
 
 body {
-    background: #9EBC9F;
+    padding: 50px;
+    background: #ccfccb;
     color: #2D2D2A;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a { 
-    color: #00e; 
+    color: #464E47; 
     text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-top: 100px;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.login-register{
+    display: inline-block;
+    text-align: left;
+}
+
+.home {
+    display: inline-block;
+    text-align: right;
+    padding-left: 600px;
+    position: absolute;
+
+}
+
+.header {
+    background: #568259; 
+    color: #F1FFFA;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header img {
+    text-align: center;
+}
+
+.h1-title {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-img {
+    width: 800px;
+    display: block;
+}
+
+.hero-shot {
+
 }
 
 a:visited { 
@@ -38,56 +100,45 @@ a:hover {
     text-decoration: none;
 }
 
-.banner-img {
-    width: 1440px;
-}
-
 img {
     width: 300px;
 }
 
-.content-wrap {
-    width: 900px;
-    margin: 0 200px;
-}
 
 /* Body Styles
 --------------------------*/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+    padding-left: 50px;
+    text-align: center;
+}
+
 .main {
-    height: 250px;
-    width: 600px;
-
-    display: flex;
-    float: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
-.aside {
+.sidebar {
     background: lightblue;
-    float: left;
-    height: 250px;
-    width: 200px;
-}
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-/* .most-recent {
-    width: 400px;
-    margin-left: auto;
-    margin-right: 0;
-    display: flex;
-    justify-content: right;
 }
-
-.most-popular {
-    width: 400px;
-    margin-left: auto;
-    margin-right: 0;
-    display: flex;
-    justify-content: right;
-} */
 
 /* Footer Styles
 --------------------------*/
 footer {
-    background: #d3b88c;
+    background: #96E6B3;
     color: #2D2D2A;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
 }
