@@ -24,34 +24,81 @@
         <div class="content-wrap">
 
             <!--  navbar  -->
-
-            <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- 
+            <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>
-                    </ul>
-                  </div>
+                    <a class="navbar-brand" href="#">Login/Register</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Most Popular</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Most Recent</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </nav> -->
-
+            </nav> -->
 
             <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Login/Register</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Most Popular</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Most Recent</a> </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="d-flex flex-grow-1"> <span
+                        class="w-100 d-lg-none d-block"></span> <a
+                        class="navbar-brand d-none d-lg-inline-block" href="#"> Login/Register
+                    </a>
+                    <div class="w-100 text-right"> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#myNavbar"> <span class="navbar-toggler-icon"></span> </button> </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item"> <a href="#" class="nav-link m-2 menu-item">Home</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link m-2 menu-item">Most Popular</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link m-2 menu-item">Most Recent</a> </li>
+                    </ul>
+                </div>
+            </nav> --> <!-- hidden spacer to center brand on mobile -->
+
+            <!-- <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Login/Register</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Most Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Most Recent</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> -->
+
+
+            <!-- <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid">
                     <div class="navbar-brand">
                         <ul>
@@ -67,13 +114,15 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
+
+
 
 
             <img src="images\biohacking-minimal-infographic-banner_87720-3086.jpg"
-                class="img-thumbnail img-fluid rounded mx-auto d-block" alt="biohacking photo" width="1440"
+                class="img-thumbnail img-fluid.max-width: 100% rounded mx-auto d-block" alt="biohacking photo" width="1440"
                 width="1080">
-            <img src="images\my-family-cropped.jpg" class="hero-shot img-thumbnail img-fluid rounded mx-auto d-block"
+            <img src="images\my-family-cropped.jpg" class="hero-shot img-thumbnail img-fluid.max-width: 100% rounded mx-auto d-block"
                 style="width:400px;" alt="">
             <section class="title">
                 <h1 class="h1-title">Harry Smith's Health Optimization Blog</h1>
@@ -82,101 +131,107 @@
         </div>
     </header>
     <div class="content-wrap">
-    <div class="container text-center">
-
-        <div class="row">
-            <div class="col-8">
-                <div class="main">
-                    <article>
-                        <div class="article-pictures">
-                            <img src="images\featured-img-long-2-4-1024x535.jpg" class="img-thumbnail img-fluid"
-                                style="width: 400px;" alt="">
-                            <img src="images\best-cold-plunge-tub-990x560.jpg" class="img-thumbnail img-fluid"
-                                style="width: 400px;" alt="">
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col-8">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <div class="article-pictures">
+                                    <img src="images\featured-img-long-2-4-1024x535.jpg" class="img-thumbnail img-thumbnail img-fluid.max-width: 100% height: auto rounded mx-auto d-block"
+                                        style="width: 300px;" alt="">
+                                    <img src="images\best-cold-plunge-tub-990x560.jpg" class="img-thumbnail img-thumbnail img-fluid.max-width: 100% height: auto rounded mx-auto d-block"
+                                        style="width: 300px;" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="article-details">
+                                    <h2><a href="/blog-1">The Ultimate Guide To Cold Thermogenesis</a></h2>
+                                    <h4>"Cool" Health Benefits Of Cold Exposure.</h4>
+                                    <p>Cold thermogenesis is the practice of intentionally exposing parts of the body to
+                                        specific levels of cold stress. </p><p> Solid research has shown that cold thermogenesis
+                                        brings a host of health benefits, from increasing metabolism to helping to control 
+                                        blood glucose levels, reducing inflammation, improving sleep and recovery, and 
+                                        potentially fighting certain types of cancer, as well as promoting overall longevity.</p>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="article-details">
-                            <h2><a href="/blog-1">The Ultimate Guide To Cold Thermogenesis</a></h2>
-                            <h4>"Cool" Health Benefits Of Cold Exposure.</h4>
-                            <p>Cold thermogenesis is the practice of intentionally exposing parts of the body to
-                                specific levels of cold stress. Solid research has shown that cold thermogenesis brings
-                                a host of health benefits, from
-                                increasing metabolism to helping to control blood glucose levels, reducing inflammation,
-                                improving sleep and recovery,
-                                and potentially fighting certain types of cancer, as well as promoting overall
-                                longevity.</p>
+                        <div class="main">
+                            <article>
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="article-pictures">
+                                            <img src="images\nutrition.jpg" class="img-thumbnail img-fluid.max-width: 100% height: auto rounded mx-auto d-block"
+                                                style="width: 300px;" alt="">
+                                            <img src="images\1566377723-nutritional_deficiency.webp"
+                                                class="img-thumbnail img-fluid.max-width: 100% height: auto rounded mx-auto d-block" style="width: 300px;" alt="">
+        
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="article-details">
+                                            <h1><a href="/blog-2"> Nutrient Deficiencies</a></h2>
+                                                <h4>How to Identify and Correct</h4>
+                                                <p>A shocking 99 percent of Americans are nutrient deficient, including over 90                percent
+                                                    who are deficient in omega-3 fats and 50 percent who are deficient in magnesium.
+                                                    Add to that chronic stress and a heavily processed diet with foods lacking nutrition, and it's a recipe for
+                                                    nutrient-deficiency disaster. </p>
+                                                <p> A nutrient deficiency means your body lacks one or more micronutrients. Some 
+                                                    nutrient deficiencies can have severe symptoms and limit your ability to accomplish daily tasks. 
+                                                    Surprisingly, these deficiencies are extremely common, even in developed countries.
+                                                    Pregnant women, children, and seniors are especially prone to nutrient deficiencies. 
+                                                    This article dives into these nutrients and answers everything you need to know about the ten most 
+                                                    common nutrient deficiencies.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </article>
                         </div>
-
-                    </article>
-                    <article>
-
-                        <div class="article-pictures">
-                            <img src="images\nutrition.jpg" class="img-thumbnail img-fluid"
-                                style="width: 400px; float:left;" alt="">
-                            <img src="images\1566377723-nutritional_deficiency.webp" class="img-thumbnail img-fluid"
-                                style="width: 400px;" alt="">
-
-                        </div>
-
-                        <div class="article-details">
-                            <h1><a href="/blog-2"> Nutrient Deficiencies</a></h2>
-                                <h4>How to Identify and Correct</h4>
-                                <p>A shocking 99 percent of Americans are nutrient deficient, including over 90 percent
-                                    who
-                                    are deficient in omega-3 fats and 50 percent who are deficient in magnesium. Add to
-                                    that chronic stress and a heavily
-                                    processed diet with foods lacking nutrition, and it's a recipe for
-                                    nutrient-deficiency disaster.</p>
-                        </div>
-
-
-                    </article>
+                    </div>
                 </div>
-
-            </div>
-            <div class="col-4">
-                <div class="sidebar">
-                    <aside class="most-recent">
-                        <ul>
-                            <h2><a href="/most-recent">Most Recent</h2>
-                            <li><img src="images\original_st_small_507x507-pad_600x600_f8f8f8.u3.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-1">2 Tips To Optimize Mitochondria</a>
-                            </li>
-                            <li><img src="images\71rim0-NpHL._AC_UF1000,1000_QL80_.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-2">A Guide to Neotropic Stacks</a>
-                            </li>
-                            <li><img src="images\Blood-Work-2.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-3">How to Read your Own Blood Work</a>
-                            </li>
-                            <li><img src="images\Master-your-sleep-optimize-your-brain-1484x835.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-4">Optimizing Sleep</a>
-                            </li>
-                        </ul>
-                    </aside>
-                    <aside class="most-popular">
-                        <ul>
-                            <h2><a href="/most-popular">Most Popular</h2>
-                            <li><img src="images\focus_illo-6d67c96.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-5">Upgrade your Brain and Body</a>
-                            </li>
-                            <li><img src="images\5aa20c25b341c3bb44632ee0ec12a8bd.jpg"
-                                    class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
-                                <a href="/blog-6">The Art and Science of Self-experimentation</a>
-                            </li>
-                        </ul>
-                    </aside>
+                <div class="col-4">
+                    <div class="sidebar">
+                        <aside class="most-recent">
+                            <ul>
+                                <h2><a href="/most-recent">Most Recent</h2>
+                                <li><img src="images\original_st_small_507x507-pad_600x600_f8f8f8.u3.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-1">2 Tips To Optimize Mitochondria</a>
+                                </li>
+                                <li><img src="images\71rim0-NpHL._AC_UF1000,1000_QL80_.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-2">A Guide to Neotropic Stacks</a>
+                                </li>
+                                <li><img src="images\Blood-Work-2.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-3">How to Read your Own Blood Work</a>
+                                </li>
+                                <li><img src="images\Master-your-sleep-optimize-your-brain-1484x835.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-4">Optimizing Sleep</a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="most-popular">
+                            <ul>
+                                <h2><a href="/most-popular">Most Popular</h2>
+                                <li><img src="images\focus_illo-6d67c96.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-5">Upgrade your Brain and Body</a>
+                                </li>
+                                <li><img src="images\5aa20c25b341c3bb44632ee0ec12a8bd.jpg"
+                                        class="img-thumbnail img-fluid rounded mx-auto d-block" style="width: 150px;">
+                                    <a href="/blog-6">The Art and Science of Self-experimentation</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
                 </div>
-            </div>
-        </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
+    </div>
 
     <!--  blog posts  -->
     <!-- <section class="main-content">
