@@ -1,16 +1,15 @@
  /* Global Styles
 --------------------------*/
 
-/* html {
+html {
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-} */
+}
 
 body {
-    padding: 50px;
     background: #ccfccb;
     color: #2D2D2A;
     margin: 0;
@@ -55,6 +54,11 @@ h1, h2, h6 {
     padding: 25px;
     margin: 0 auto;
     text-align: center;
+}
+
+.title {
+    position: relative;
+    bottom: 200px;
 }
 
 .banner-img {
@@ -110,7 +114,10 @@ a:hover {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 6;
+}
 
+.sidebar a {
+    position: relative;
 }
 
 .article-pictures {
@@ -127,7 +134,7 @@ a:hover {
 footer {
     background: #96E6B3;
     color: #2D2D2A;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 
