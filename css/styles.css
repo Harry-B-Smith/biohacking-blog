@@ -49,14 +49,14 @@
      color: #2D2D2A;
  }
 
- .content-wrap {
-    width: 80%;
+ .content-wrap-main {
+    width: 95%;
      margin: 0 auto;
      padding: 60px 0;
  }
 
- .content-wrap-main {
-    width: 90%;
+  .content-wrap {
+    width: 80%;
      margin: 0 auto;
      padding: 60px 0;
  }
@@ -109,6 +109,10 @@
 
  .sidebar {
      background: lightblue;
+     width: 70%;
+     padding: 25px;
+     margin: 0 auto;
+     text-align: center;
  }
 
 
@@ -153,7 +157,7 @@
 
      .sidebar {
         background: lightblue;
-        width: 300px;
+        width: 70%;
         margin: 0 auto;
         text-align: center;
     }
@@ -180,5 +184,7 @@
          position: relative;
          bottom: 50px;
      }
+
+
 
  }
